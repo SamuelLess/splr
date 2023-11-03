@@ -9,8 +9,9 @@ use {
         fmt,
         io::{stdout, Write},
         ops::{Index, IndexMut},
-        time::{Duration, Instant},
+        time::{Duration},
     },
+    instant::Instant,
 };
 const PROGRESS_REPORT_ROWS: usize = 7;
 
